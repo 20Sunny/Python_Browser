@@ -36,5 +36,6 @@ class MainWindow(QMainWindow):
         self.url_bar.setText(q.toString())
 app = QApplication(sys.argv)
 QApplication.setApplicationName('Browser')
+
 window = MainWindow()
 app.exec_()
